@@ -1,0 +1,8 @@
+server:
+  ip: localhost
+  port: 8080
+
+spotify:
+  clientId: 8054bccda9324856822f491a5b7a3149
+  clientSecret: dec22d8f42d1439ab53a01c704adb904
+  redirectUri: http://${server.ip}:${server.port}/callback
